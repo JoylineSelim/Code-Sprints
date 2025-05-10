@@ -1,17 +1,17 @@
-#include <iostream>
-using namespace std;
+package problems.easy.tax_error;
 
-double calculateTax(double income) {
-    if (income < 0) {
-        return "Income can't be negative"; 
+public class TaxCalculator {
+    public static double calculateTax(double income) {
+        if (income < 0) {
+            return 0.0;
+        }
+
+        double taxRate = 0.15;
+        double tax = income * taxRate; // Correct calculation
+        return tax;
     }
-    double taxRate = 0.15;
-    double tax = 0;
-    income * taxRate; 
-    return tax;
-}
 
-int main() {
-    cout << calculateTax(10000) << endl; 
-    return 0;
+    public static void main(String[] args) {
+        System.out.println(calculateTax(10000)); // Expected: 1500.0
+    }
 }
