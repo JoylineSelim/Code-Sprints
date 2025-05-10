@@ -6,3 +6,7 @@
 | **Challenge** | **bear_and_gene.py** |
 | **Total Points** | **30** |
 
+### Joyline - 2025-05-10 10:33:03
+| **Challenge** | **build_a_string.py** |
+| **Total Points** | **30** |
+
